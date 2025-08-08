@@ -1,7 +1,24 @@
 @import url(./reset.css);
 @import url(./font.css);
 
-@root {
-    
+:root {
+
+    --accent-color: #4985FF;
+    --dark-color: #323232;
+    --grey-color: #999999;
+    --light-grey-color: #E0E0E0;
+
+    --accent-fonts: 'Montserrat';
+
 }
+
+body {
+    font-family: var(--accent-fonts);
+    font-size: 16px;
+    
+    color: var(--grey-color);
+    line-height: 1.58;
+}
+
+
 
